@@ -1,10 +1,18 @@
 import './App.css';
 
+import Button from './components/Button/Button';
+import Input from './components/Input/Input';
+
 function App() {
     return (
         <div className="App">
-            react1
+            <Button />
+            <Input />
+            {
+                console.log("asd")
+            }
         </div>
+        
     );
 }
 
