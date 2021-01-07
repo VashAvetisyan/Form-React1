@@ -1,4 +1,4 @@
-
+import React from 'react'
 
 export const ValidateName = (val) => {
     if (val.Name.length < 8) {
