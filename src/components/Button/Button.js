@@ -2,8 +2,9 @@ import React from 'react'
 
 import './Button.css'
 
-function Button() {
-    return <button className = "app-button">text</button>
+function Button(props) {
+    return <button onClick={props.onClick} type="button" className = "app-button">{props.children}</button>
 }
+
 
 export default Button
